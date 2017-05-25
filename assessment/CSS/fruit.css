@@ -44,18 +44,22 @@ a, a:link, a:visited, a:focus, a:hover, a:active{
 
 .Title {
     position:absolute;
-    Top: 60vh;
-    Right: 11vw;
+    Top: 59vh;
+    Right: 8vw;
 }
 
 .Titletext {
-    color: blue;
+    padding: 10px 25px 10px 25px;
+    background-color:  rgba(139,0,0, 0.6);
+}
+h1 {
+    color: white;
 }
 
 
 .Links{
-    background-color: red;
-    height: 394px;
+    background-color:  rgba(139,0,0, 1);
+    height: 370px;
     width: 40%;
     float: left;
     line-height: 48px;
@@ -73,7 +77,7 @@ a, a:link, a:visited, a:focus, a:hover, a:active{
 }
 
 li {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid red;
     /*padding-right: 0px;*/
     margin-right: 50px;
 }
@@ -90,24 +94,223 @@ li {
     /*margin-right: 70px;*/
     width:60%;
     float: left;
+    background-color:  rgba(139,0,0, 1);
 }
 
 .videoone {
-    width: 700px;
+    width: 650px;
 }
 
 .articles{
-    width: 90%;
+    position: relative;
+    width: 75%;
     height: 100% !important;
-     margin: 0 auto;
-    padding-left: 110px;
+     margin: 0 auto;   
     column-count: 3;
     -webkit-column-count: 3;
     -moz-column-count: 3;
     -ms-column-count: 3;
     -o-column-count: 3;
+    column-gap: 3em;
 }
 
-.headerone {
+ .headerone {
+     Top: 10vh;
+     Left: -10vw;
+    position: absolute;
+    font-size: 1.0em;
     transform:rotate(-90deg);
+    width: 15%;
+    padding: 10px 0px 10px 40px;
+    background-color:  rgba(139,0,0, 1);
+        
+    
+}
+
+h2 {
+    color:white;
+}
+
+.headpone {
+    line-height: 30px;
+    padding-bottom: 10px;
+    
+}
+
+.headptwo {
+    padding-right: 40px;
+    text-align: right;
+}
+
+
+.headertwo {
+    Top: 10vh;
+    Left: 16vw;
+    width: 7%;
+    font-size: 1.0em;
+    padding: 10px 20px 10px 100px;
+    position:absolute;
+    transform:rotate(-90deg);
+    background-color:  rgba(139,0,0, 1);
+}
+
+h3 {
+    color:white;
+}
+
+.acolor {
+    color:red;
+}
+
+.headerthree {
+    Top: 9vh;
+    Left: 45vw;
+    width: 13%;
+    font-size: 1.0em;
+    padding: 8px 0px 10px 60px;
+    position:absolute;
+    transform:rotate(-90deg);
+    background-color:  rgba(139,0,0, 1);
+    
+}
+
+h4 {
+    color: white;
+}
+
+.read_more {
+    float:right;
+    color: red;
+}
+
+.letter {
+    position: absolute;
+    color: red;
+    bottom: 16.5vh;
+    right: 13vw;
+}
+
+.phone {
+    position: absolute;
+    color: red;
+    bottom: 23vh;
+    right: 13vw;
+}
+
+.speech {
+    position: absolute;
+    color: red;
+    bottom: 10vh;
+    right: 13vw;
+}
+
+h5 {
+    font-size: 1.2em;
+    color:  rgba(139,0,0, 1);
+}
+.secondonepara {
+    width:60%;
+    margin-top: 70px;
+    padding: 30px 50px 90px 100px;
+}
+
+.secondtwopara {
+    position: relative;
+}
+
+h6 {
+    color: white;
+}
+.headersix {
+    position: absolute;
+    Top: -24vh;
+    Right: 20vw;
+    width: 11%;
+    font-size: 1.0em;
+    padding: 8px 0px 10px 100px;
+    transform:rotate(-90deg);
+    background-color:  rgba(139,0,0, 1);
+    
+}
+
+.backgroundpagetwo {
+    background-color: rgb(255, 102, 102);
+}
+
+.Lastarticle {
+    background-color: rgb(32, 32, 32);
+    position: relative;
+    width: 100%;
+    height: 100% !important;
+     margin: 0 auto; 
+    padding: 80px 80px;
+    column-count: 3;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    -ms-column-count: 3;
+    -o-column-count: 3;
+    column-gap: 3em;
+}
+
+.sightmap {
+    color: white;
+    padding: 30px 50px 100px 0;
+}
+
+.AoW {
+    border-right: 1px solid white;
+    padding-top: 20px;
+    margin: 0px 60px;
+    padding-bottom: 14px;
+    line-height: 20px;
+}
+
+.AAF {
+    border-right: 1px solid white;
+    padding-bottom: 14px;
+    margin: 0px 60px;
+    padding-top: 10px;
+    line-height: 20px;
+}
+
+.Offices {
+    padding-top: 10px;
+    line-height: 20px;
+}
+
+.headers {
+    color: white;
+    padding: 10px 40px 10px 0;
+}
+
+.ptext {
+    border-bottom: 1px solid green;
+    color: red;
+    line-height: 20px;
+}
+
+.Miniheaders{
+    color: white !important;
+    line-height: 20px;
+}
+
+.mailform {
+    color: red;
+    line-height: 20px;
+    border-bottom: 1px solid green;
+}
+.copyrightback {
+    background-color: rgb(32, 32, 32);
+}
+.copyright {
+    padding-left: 85px;
+    color:white;
+}
+
+.logos {
+    position:absolute;
+   width: 50px;
+    height:auto;
+    Top: -35vh;
+    Left: 80vw;
 }
