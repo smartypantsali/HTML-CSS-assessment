@@ -1,61 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
+    <title>The fruit dictionary</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <meta name="description" content="This is a fruit website about eating healthy">
-    
-    <title>The fruit dictionary</title>
+    <link href="https://fonts.googleapis.com/css?family=Ek+Mukta" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="CSS/normalize.css">
     <link rel="stylesheet" href="CSS/fruit.css">
     </head>
     <body>
         
         <!--FIRST PAGE-->
-        <section>
+        <section class="container">
             
             <header>
                 
             <!--Logo-->
-            <img src="images/mainlogo.jpg">    
+            <div class="mainlogo">   
+            <img class="logom" src="images/mainlogo.jpg">    
+            </div>
                 
-            <!--Links-->    
+            <!--Search Box--> 
+            <div class="searchbox">   
+            <form id="searchbox" action="">    
+            <input id="search" type="text" placeholder="Search">
+            <button class="newcollectionB"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </form>
+            <span class="searchboxword">   
+            <label>Site:</label><br>
+            <label>People:</label><br>
+            </span>      
+            </div>
+               </header>  
+            </section> 
+            
+            <section class="container"> 
+            <!--Links-->
+            <div class="Links">    
             <nav>
-                <ul>
-                <li><a href="#">ABOUT US</a></li>
-                <li><a href="#">AREA OF EXPERTISE</a></li>
-                <li><a href="#">PEOPLE</a></li>
-                <li><a href="#">OFFICES</a></li>
-                <li><a href="#">ARTICLE</a></li>
-                <li><a href="#">RECRUITMENT</a></li>
-                <li><a href="#">CONTACT US</a></li>
+                <ul style="list-style: none">
+                    
+                <li  class="mainNav"><a href="#ABOUT US">ABOUT US</a><span class="spanpos"><i class="fa fa-play" aria-hidden="true"></i></span></li>
+                <li  class="mainNav"><a class="mainNav" href="#AREA OF EXPERTISE">AREA OF EXPERTISE</a><span class="spanpos"><i class="fa fa-play" aria-hidden="true"></i></span></li>
+                <li  class="mainNav"><a class="mainNav" href="#PEOPLE">PEOPLE</a><span class="spanpos"><i class="fa fa-play" aria-hidden="true"></i></span></li>
+                <li  class="mainNav"><a class="mainNav" href="#OFFICES">OFFICES</a><span class="spanpos"><i class="fa fa-play" aria-hidden="true"></i></span></li>
+                <li  class="mainNav"><a class="mainNav" href="#ARTICLE">ARTICLE</a><span class="spanpos"><i class="fa fa-play" aria-hidden="true"></i></span></li>
+                    <li  class="mainNav"><a class="mainNav" href="#RECRUITMENT">RECRUITMENT</a><span class="spanpos"><i class="fa fa-play" aria-hidden="true"></i></span></li>
+                <li  class="mainNav"><a class="mainNav" href="#CONTACT US">CONTACT US</a><span class="spanpos"><i class="fa fa-play" aria-hidden="true"></i></span></li>
                     
                 </ul>
                 </nav>
-                
-                 <!--Search Box-->  
-                <label>Site:</label><br>
-                <label>People:</label><br>
-                <form id="searchbox" action="">
-                <input id="search" type="text" placeholder="Type here">
-                <input id="submit" type="submit" value="Search">
-                </form>
+            </div>    
                 
                 <!--Main video-->
-                <video autoplay> <source src="Videos/Cherries%20-%208110.mp4"></video>
+                <div class="backgroundVideo">
+                <video class="videoone" autoplay loop> <source src="Videos/Cherries%20-%208110.mp4"></video>
+                </div> 
+                </section>
+            
                 
                 <!--First header-->
-                <h1>WE ARE HEALTH INVESTIGATORS</h1>
+                <div class="Title">   
+                <h1 class="Titletext">WE ARE HEALTH INVESTIGATORS</h1>
+                </div> 
                 
+                <section class="container">
+                <div class="articles">      
                 <!--Second Header with links-->
                 <article>
-                <h2>AREA OF EXPERTISE</h2>
-                <li><a href="#">FRUIT INVESTIGATION</a></li>
-                <li><a href="#">HEALTH ASSESSMENT</a></li>
-                <li><a href="#">EXPLOSION IN FRUIT ASSESSMENT</a></li>
-                <li><a href="#">ILLEGAL IMPORTS INVESTIGATION</a></li>
-                <li><a href="#">MECHANISMS OF HEALTHY LIVING</a></li>
-                <li><a href="#">FRUIT TRAFFIC ACCIDENTS</a></li>
+                <h2 class="headerone">
+                    AREA OF EXPERTISE</h2>
+                <a href="#">FRUIT INVESTIGATION</a><br>
+                <a href="#">HEALTH ASSESSMENT</a><br>
+                <a href="#">EXPLOSION IN FRUIT ASSESSMENT</a><br>
+                <a href="#">ILLEGAL IMPORTS INVESTIGATION</a><br>
+                <a href="#">MECHANISMS OF HEALTHY LIVING</a><br>
+                <a href="#">FRUIT TRAFFIC ACCIDENTS</a><br>
                     </article>
                 
                 <!--Article-->
@@ -82,11 +106,11 @@
                    999 BANNANA LANE<br>
                    ER4 2HR</p>    
                 </article>
-                 </header>
+                    </div>
         </section>
             
             <!--SECOND PAGE-->    
-            <section>
+            <section class="container">
                 
             <!--WELCOME TO THE FRUIT COMPANY-->    
             <h5>WELCOME TO THE AG FRUIT INVESTIGATORS</h5>
@@ -102,6 +126,9 @@
             <i class="fa fa-twitter" aria-hidden="true"></i>
             </div>  
             
+        </section>
+        
+        <section class="container">
             <!--Site Map--> 
             <article>    
             <head>Area of Work</head>
@@ -145,9 +172,10 @@
             <a href="#">Contact Us mailform</a>   
             </article> 
             
-            <footer>
-                <span>© 2017 The Fruit Company</span>
-                </footer>    
+             
         </section>
+          <footer>
+                <span>© 2017 The Fruit Company</span>
+                </footer> 
     </body>
 </html>

@@ -1,0 +1,113 @@
+body {
+    margin-top: 0;
+    font-family: 'Ek Mukta', sans-serif;
+    font-size: 0.9em;
+    color: #444;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   
+}
+
+a, a:link, a:visited, a:focus, a:hover, a:active{
+  text-decoration:none; 
+}
+
+.container {
+    width: 100%;
+    /*display: block;*/
+}
+.mainlogo {
+
+    width: 30%;
+    Top: 0;
+}
+
+.logom {
+    width: 350px;
+    height: 140px;
+}
+
+.searchbox {
+    position:absolute;
+    Top: 9vh;
+    Right: 10vw;
+}
+
+.searchboxword {
+    position:absolute;
+    Top: -1vh;
+    Right: 22vw;
+}
+
+
+.Title {
+    position:absolute;
+    Top: 60vh;
+    Right: 11vw;
+}
+
+.Titletext {
+    color: blue;
+}
+
+
+.Links{
+    background-color: red;
+    height: 394px;
+    width: 40%;
+    float: left;
+    line-height: 48px;
+   
+}
+
+
+.mainNav a{
+    position: relative;
+    padding-left: 15px;
+    color: white;
+    padding-bottom: 3px;
+    
+   
+}
+
+li {
+    border-bottom: 1px solid white;
+    /*padding-right: 0px;*/
+    margin-right: 50px;
+}
+
+.spanpos {
+    float: right;
+    color: white;
+    right: 0vw;
+    
+}
+
+
+.backgroundVideo {
+    /*margin-right: 70px;*/
+    width:60%;
+    float: left;
+}
+
+.videoone {
+    width: 700px;
+}
+
+.articles{
+    width: 90%;
+    height: 100% !important;
+     margin: 0 auto;
+    padding-left: 110px;
+    column-count: 3;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    -ms-column-count: 3;
+    -o-column-count: 3;
+}
+
+.headerone {
+    transform:rotate(-90deg);
+}
