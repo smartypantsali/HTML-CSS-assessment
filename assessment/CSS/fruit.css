@@ -253,15 +253,17 @@ h6 {
 }
 
 .sightmap {
+    position: absolute;
     color: white;
-    padding: 30px 50px 100px 0;
+    Top: 5vh;
+    Left: 4vw;
 }
 
 .AoW {
     border-right: 1px solid white;
     padding-top: 20px;
     margin: 0px 60px;
-    padding-bottom: 14px;
+    padding-bottom: 30px;
     line-height: 20px;
 }
 
@@ -271,6 +273,12 @@ h6 {
     margin: 0px 60px;
     padding-top: 10px;
     line-height: 20px;
+}
+
+#peopleid {
+    position:absolute;
+    Top: 24vh;
+    Left: 40vw;
 }
 
 .Offices {
