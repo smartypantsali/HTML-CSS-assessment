@@ -140,7 +140,49 @@
              </div>   
         </section>
         
+        
+        <!--contact us-->
         <section class="container">
+            <div class="bgImage">
+            <span class="bgImageh">Please email us:</span>
+            <div class="formC">  
+            <form>
+            <div>
+            <label class="Name">Name</label><br>
+            <input type="text" class="inputFields" id="name">
+            </div>    
+            <div>
+            <label class="Email">Email</label><br>
+            <input type="email" class="inputFields" id="email">
+            </div>
+            
+            <div>
+            <label class="Message">Message</label><br>
+            <textarea rows="5" cols="" class="inputMessage" id="message" maxlength="999" style="resize:none"></textarea>
+            </div>
+
+            <div id="submitButtonDiv">
+            <button type="submit" id="submitButton" class="sendB">SEND MESSAGE</button>
+            </div>
+            </form>
+            </div>
+           </div>
+        </section>
+        
+        <!--Google Maps-->
+        <section class="container">
+            <div class="mapcontainer">   
+            <aside class="ourLocation">
+            <div id="map">  
+            </div>
+            <div id="driving-directions">
+            </div> 
+                </aside>
+            </div>    
+        </section>
+        
+                <section class="container" id="mapcontainer">
+                     <span class="locatemaps">Please use google maps provided to locate our UK office:</span> 
             <!--Site Map--> 
             <div class="Lastarticle">
             <div class="sightmap">SIGHT MAP</div>
@@ -178,7 +220,7 @@
                 
             <!--Offices-->
             <article>    
-            <span class="headers">Offices</span><br>
+            <span class="headers" id="headeroffice">Offices</span><br>
             <div class="Offices">     
             <a class="ptext" href="#">UK Office</a><br>    
             <a class="ptext" href="#">Fruitland Office</a><br>    
@@ -204,6 +246,13 @@
                 <span class="copyright">© 2017 The Fruit Company</span>
                 </div>    
                 </footer>
-          
+        
+        <!--javascript-->
+        <script src="javascript/maps.js"></script>
+        
+        <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCEmLrUwxTvQi9FBZtHiw2QNK_pBtHfHWY&callback=initMap">
+        </script>
+        
     </body>
 </html>

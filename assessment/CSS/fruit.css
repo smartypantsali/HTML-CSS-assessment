@@ -186,21 +186,21 @@ h4 {
 .letter {
     position: absolute;
     color: red;
-    bottom: 16.5vh;
+    bottom: 18.5vh;
     right: 13vw;
 }
 
 .phone {
     position: absolute;
     color: red;
-    bottom: 23vh;
+    bottom: 24.5vh;
     right: 13vw;
 }
 
 .speech {
     position: absolute;
     color: red;
-    bottom: 10vh;
+    bottom: 12vh;
     right: 13vw;
 }
 
@@ -283,6 +283,7 @@ h6 {
 
 .Offices {
     padding-top: 10px;
+    
     line-height: 20px;
 }
 
@@ -298,8 +299,11 @@ h6 {
 }
 
 .Miniheaders{
+    position: absolute;
     color: white !important;
     line-height: 20px;
+    Left: 68vw;
+    
 }
 
 .mailform {
@@ -319,6 +323,219 @@ h6 {
     position:absolute;
    width: 50px;
     height:auto;
-    Top: -35vh;
-    Left: 80vw;
+    Top: -37vh;
+    Left: 82vw;
+}
+
+#headeroffice {
+    position:absolute;
+    Top: 10.5vh;
+    Left: 68vw;
+}
+.bgImage {
+    padding-top: 150px;
+    position: relative;
+    background-image: linear-gradient(to right, orange, green , transparent), url(../images/fruit-images-1.jpg);   
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+    width: 100% !important;
+    height: 60vh;
+    border-bottom: 15px solid rgba(54, 91, 70, 0.8);
+    background-attachment: fixed;
+}
+
+.bgImageh{
+    position:absolute;
+    font-size: 2em;
+    color: darkred;
+    Top: 10vh;
+    Right: 42vw;
+}
+.formC {
+    border-radius: 5px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+
+/* ABOUT US*/
+.Name {
+    position:absolute;
+    left: 20vw;
+    font-size: 1.2em;
+    color: darkred;
+    Top: -1vh;
+    Left: 31vw;
+}
+
+#name {
+    padding: 5px 200px 5px 20px;
+    margin-bottom: 30px;
+    border-color: blue;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.Email {
+    position:absolute;
+    font-size: 1.2em;
+    color: darkred;
+    Left: 31vw;
+    Top: 11.9vh;
+}
+
+#email {
+    padding: 5px 200px 5px 20px;
+    margin-bottom: 30px;
+   border-color: blue; 
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.Message {
+    position:absolute;
+    font-size: 1.2em;
+    color: darkred;
+    Left: 31vw;
+    Top: 25vh;
+}
+
+#message {
+    border: 2px solid;
+    padding: 5px 200px 5px 50px;
+    margin-bottom: 30px;
+    border-color: blue;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.sendB {
+    border-color: red;
+    background-color: darkred;
+}
+
+#submitButton{
+    color:white;
+}
+
+#mapcontainer {
+    background-color: seagreen !important;
+}
+
+.ourLocation {
+    width: 40%;
+    float: right;
+    border: 5px solid rgba(159, 12, 16, 0.2);
+    height: 288px; 
+    background-color: darkgreen;
+}
+
+  #map {
+    height: 288px;
+}
+
+.locatemaps {
+    position: absolute;
+    Top: 250vh;
+    font-size: 1.5em;
+}
+
+/*Media Query for max 1600px*/
+
+@media screen and (max-width: 1600px) {
+   
+    .searchboxword {
+        position: absolute;
+        Right: 15vw;
+    }
+    
+    .Title {
+        position: absolute;
+        Top: 50vh;
+        Right: 18vw;
+    }
+    
+    .headpone {
+        padding-top: 15px;
+        padding-bottom: 40px;
+    }
+    
+    .headptwo {
+        padding-top: 24px;
+    }
+    
+    .headerone {
+        position: absolute;
+        Top: 12vh;
+    }
+    
+    .headertwo {
+        position: absolute;
+        width: 8%;
+        Top: 12vh;
+    }
+    
+    .headerthree {
+        position: absolute;
+        Top: 11vh;
+        Left: 51vw;
+    }
+    
+    .letter {
+        position: absolute;
+        Top: 73vh;
+        Right: 12.5vw;
+    }
+    
+    .phone {
+        position: absolute;
+        Top: 67vh;
+        Right: 12.5vw;
+    }
+    
+    .speech {
+        position: absolute;
+        Top: 79vh;
+        Right: 12.5vw;
+    }
+    
+    .headersix {
+        position: absolute;
+        width: 8%;
+        Top: -25vh;
+    }
+    
+    .logos {
+        position: absolute;
+        Top: -32.5vh;
+        Left: 83vw;
+    }
+    
+    .Name {
+        position: absolute;
+        Top: -1vh;
+        Left: 35vw;
+    }
+    
+    .Email {
+        position: absolute;
+        Top: 11vh;
+        Left: 35vw;
+    }
+    
+    .Message {
+        position:absolute;
+        Top: 22.5vh;
+        Left: 35vw;
+    }
+    
+    .locatemaps {
+        position: absolute;
+        Top: 235vh;
+        Left: 10vw;
+    }
+   
 }
