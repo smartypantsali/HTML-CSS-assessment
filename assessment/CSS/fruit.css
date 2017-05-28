@@ -443,6 +443,8 @@ h6 {
     font-size: 1.5em;
 }
 
+
+
 /*Media Query for max 1600px*/
 
 @media screen and (max-width: 1600px) {
@@ -455,7 +457,7 @@ h6 {
     .Title {
         position: absolute;
         Top: 50vh;
-        Right: 18vw;
+        Right: 15vw;
     }
     
     .headpone {
@@ -539,3 +541,192 @@ h6 {
     }
    
 }
+
+@media only screen and (max-height: 1600px){
+    
+}
+
+
+
+/*Media Query for max 700px*/
+@media screen and (min-width: 700px) and (min-height: 615px) {
+    
+    .searchboxword {
+        position: absolute;
+        Right: 18vw;
+        Top: -0.5vh;
+    }
+    
+     .Title {
+        position: absolute;
+        Top: 62vh;
+        Right: 7vw;
+    }
+    
+       .headerthree {
+        position:absolute;
+        Left: 47vw;
+    }
+    
+    
+     .letter {
+        position: absolute;
+        Top: 92vh;
+        Right: 12.5vw;
+    }
+    
+    .phone {
+        position: absolute;
+        Top: 85vh;
+        Right: 13vw;
+    }
+    
+    .speech {
+        position: absolute;
+        Top: 100vh;
+        Right: 12.5vw;
+    }
+    
+    .headersix {
+        position: absolute;
+        width: 10%;
+        Top: -33vh;
+        padding-top: 15px;
+    }
+    
+    .logos {
+        position: absolute;
+        Top: -41.5vh;
+        Left: 83vw;
+    }
+    
+        .locatemaps {
+        position: absolute;
+        Top: 290vh;
+        Left: 2vw;
+    }
+    
+    .formC {
+        position: absolute;
+        Top: 75px;
+    }
+    
+      .Name {
+        position: absolute;
+        Top: -1vh;
+        Left: 33vw;
+    }
+    
+    .Email {
+        position: absolute;
+        Top: 14vh;
+        Left: 33vw;
+    }
+    
+    .Message {
+        position:absolute;
+        Top: 28.5vh;
+        Left: 32vw;
+    }
+    
+    .bgImageh {
+        position: absolute;
+        Top: 5vh;
+    }
+    
+    
+}
+
+/*Media Query for Height 725px*/
+@media screen and (min-height: 725px) {
+    
+    .Title {
+        position: absolute;
+        Top: 53vh;
+        Right: 9vw;
+    }
+    
+        .headerthree {
+        position:absolute;
+        Right: 25vw;
+    }
+    
+     
+    .letter {
+        position: absolute;
+        Top: 81vh;
+        Right: 12.5vw;
+    }
+    
+    .phone {
+        position: absolute;
+        Top: 74vh;
+        Right: 13vw;
+    }
+    
+    .speech {
+        position: absolute;
+        Top: 87vh;
+        Right: 12.5vw;
+    }
+    
+    .locatemaps {
+        position:absolute;
+        Top: 255vh;
+    }
+    
+    .formC {
+        position: absolute;
+        Top: 96px;
+    }
+    
+     .Email {
+        position: absolute;
+        Top: 12vh;
+        Left: 33vw;
+    }
+    
+    .Message {
+        position:absolute;
+        Top: 25vh;
+        Left: 32vw;
+    }
+    
+     .headersix {
+        position: absolute;
+        width: 10%;
+        Top: -29vh;
+        padding-top: 15px;
+    }
+    
+    .logos {
+        position: absolute;
+        Top: -36.5vh;
+        Left: 83vw;
+    }
+}
+
+
+    
+@media screen and (max-width:699px) and (min-width: 495px)  {
+    
+     .searchboxword {
+        position: absolute;
+        Right: 21vw;
+        Top: -0.5vh;
+    }
+    
+     .Title {
+        position: absolute;
+        Top: 60vh;
+    }
+    
+    .headerthree {
+        Left: 44vw;
+    }
+    
+    .headertwo {
+        
+    }
+    
+
